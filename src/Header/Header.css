@@ -2,14 +2,19 @@
   background-color: black;
 }
 
+.menu-icon {
+  display: none;
+}
+
 .h-container {
   display: flex;
-  width: 1230px;
+  max-width: 1230px;
   margin: auto;
   padding: 16px 32px;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
+  position: relative;
 }
 
 .menu {
@@ -38,4 +43,32 @@ button {
 
 button:hover {
   transform: scale(1.1);
+}
+
+.showMenu {
+  top: 75px;
+  right: 20%;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    top: 75px;
+    right: -400px;
+    transition: right 0.2s ease-in-out;
+    padding: 50px;
+    box-shadow: 1px 1px 10px 0.1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  .menu a {
+    color: black;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
 }
