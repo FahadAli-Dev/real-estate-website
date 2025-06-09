@@ -45,11 +45,6 @@ button:hover {
   transform: scale(1.1);
 }
 
-.showMenu {
-  top: 75px;
-  right: 20%;
-}
-
 @media (max-width: 768px) {
   .menu {
     flex-direction: column;
@@ -71,4 +66,9 @@ button:hover {
     display: block;
     cursor: pointer;
   }
+}
+
+.showMenu {
+  top: 75px;
+  right: 20%;
 }
