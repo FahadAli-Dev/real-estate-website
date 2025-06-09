@@ -66,9 +66,9 @@ button:hover {
     display: block;
     cursor: pointer;
   }
-}
 
-.showMenu {
-  top: 75px;
-  right: 20%;
+  .showMenu {
+    top: 75px;
+    right: 20%;
+  }
 }
