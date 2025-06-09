@@ -1,0 +1,41 @@
+.h-wrapper {
+  background-color: black;
+}
+
+.h-container {
+  display: flex;
+  width: 1230px;
+  margin: auto;
+  padding: 16px 32px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+button {
+  background: var(--blue-gradient);
+  color: white;
+  padding: 9.6px 22.4px;
+  border: none;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: ease-in;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
