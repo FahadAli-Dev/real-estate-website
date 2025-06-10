@@ -9,7 +9,6 @@
   padding: 16px 32px;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
 }
 
 .menu {
@@ -68,6 +67,6 @@ button:hover {
   }
 
   .showMenu {
-    right: 20%;
+    right: 13%;
   }
 }
