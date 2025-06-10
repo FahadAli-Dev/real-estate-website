@@ -2,10 +2,6 @@
   background-color: black;
 }
 
-.menu-icon {
-  display: none;
-}
-
 .h-container {
   display: flex;
   max-width: 1230px;
@@ -14,7 +10,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  position: relative;
 }
 
 .menu {
@@ -22,11 +17,16 @@
   gap: 30px;
   justify-content: center;
   align-items: center;
+  /* overflow: hidden; */
 }
 
 .menu a {
   text-decoration: none;
   color: #ccc;
+}
+
+.menu-icon {
+  display: none;
 }
 
 button {
@@ -48,14 +48,14 @@ button:hover {
 @media (max-width: 768px) {
   .menu {
     flex-direction: column;
-    position: absolute;
     background-color: white;
-    top: 75px;
-    right: -400px;
-    transition: right 0.2s ease-in-out;
     padding: 50px;
     box-shadow: 1px 1px 10px 0.1px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    transition: all 0.3s ease-in;
+    position: fixed;
+    top: 75px;
+    right: -100%;
   }
 
   .menu a {
@@ -68,7 +68,6 @@ button:hover {
   }
 
   .showMenu {
-    top: 75px;
     right: 20%;
   }
 }
