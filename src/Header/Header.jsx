@@ -9,14 +9,13 @@ const Header = () => {
     <header className="h-wrapper">
       <nav className="h-container">
         <img src="logo.png" alt="logo" width={100} />
-        <div className="menu-icon">
-          <BiMenuAltRight
-            size={30}
-            color="white"
-            onClick={() => {
-              setOpenMenu(!openMenu);
-            }}
-          />
+        <div
+          className="menu-icon"
+          onClick={() => {
+            setOpenMenu(!openMenu);
+          }}
+        >
+          <BiMenuAltRight size={30} color="white" />
         </div>
 
         <div className={`menu ${openMenu ? "showMenu" : ""}`}>
