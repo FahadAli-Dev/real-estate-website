@@ -4,7 +4,7 @@ import Hero from "./Hero/Hero";
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <Header />
       <Hero />
     </div>

@@ -10,4 +10,11 @@
 :root {
   --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
   --black: #131110;
+  --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
+  --blue: #4066ff;
+}
+
+.secondary-text {
+  font-size: 14.4px;
+  color: #8c8b8b;
 }
