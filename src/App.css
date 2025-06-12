@@ -1,0 +1,13 @@
+.App > :nth-child(1) {
+  background: var(--black);
+  position: relative;
+}
+
+.App > :nth-child(1) > :first-child {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  background: var(--white-gradient);
+  border-radius: 6.25rem;
+  filter: blur(100px);
+}

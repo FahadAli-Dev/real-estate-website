@@ -9,7 +9,12 @@ const Header = () => {
   return (
     <header className="h-wrapper">
       <nav className="h-container">
-        <img src="logo.png" alt="logo" width={100} />
+        <img
+          src="logo.png"
+          alt="logo"
+          width={100}
+          style={{ position: "relative", zIndex: 1 }}
+        />
 
         <OutsideClickHandler
           onOutsideClick={() => {

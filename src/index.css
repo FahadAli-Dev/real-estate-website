@@ -12,6 +12,7 @@
   --black: #131110;
   --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
   --blue: #4066ff;
+  --white-gradient: rgb(142, 141, 141);
 }
 
 .secondary-text {
