@@ -2,7 +2,7 @@ import { HiLocationMarker } from "react-icons/hi";
 import "./Hero.css";
 import CountUp from "react-countup";
 
-let Hero = () => {
+const Hero = () => {
   return (
     <section className="hero-section">
       <div className="hero-container">
