@@ -23,6 +23,8 @@
   display: none;
 }
 
+/* Responsive */
+
 @media (max-width: 768px) {
   .h-container {
     padding: 16px 64px;

@@ -97,6 +97,39 @@
   height: 100%;
 }
 
+/* Animation */
+@keyframes slideIn {
+  from {
+    transform: translateX(20%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.img-container {
+  animation: slideIn 2s ease-out forwards;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.hero-title {
+  animation: slideUp 1s ease-out forwards;
+}
+
+/* Responsive  */
+
 @media (max-width: 978px) {
   .hero-container {
     flex-direction: column;
