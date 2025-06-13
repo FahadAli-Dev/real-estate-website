@@ -1,6 +1,6 @@
 import "./App.css";
-import Header from "./Header/Header";
-import Hero from "./Hero/Hero";
+import Header from "./Components/Header/Header";
+import Hero from "./Components/Hero/Hero";
 
 const App = () => {
   return (
