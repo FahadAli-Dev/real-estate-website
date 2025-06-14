@@ -13,6 +13,27 @@
   --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
   --blue: #4066ff;
   --white-gradient: rgb(142, 141, 141);
+  --lightBlue: #eeeeff;
+}
+
+.padding {
+  padding: 2rem;
+}
+@media (max-width: 768px) {
+  .padding {
+    padding: 4rem;
+  }
+}
+@media (max-width: 640px) {
+  .padding {
+    padding: 1.5rem;
+  }
+}
+
+.primaryText {
+  color: rgb(31, 62, 114);
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 .secondary-text {
@@ -20,7 +41,22 @@
   color: #8c8b8b;
 }
 
-button {
+.orangeText {
+  color: orange;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .primaryText {
+    font-size: 1.5rem;
+  }
+  .orangeText {
+    font-size: 1.2rem;
+  }
+}
+
+.btn {
   background: var(--blue-gradient);
   color: white;
   padding: 9.6px 22.4px;
@@ -32,6 +68,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   transform: scale(1.1);
 }

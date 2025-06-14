@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 const Hero = () => {
   return (
     <section className="hero-section">
-      <div className="hero-container">
+      <div className="hero-container padding">
         {/* Left side */}
         <div className="hero-left">
           <div className="orange-circle" />
@@ -24,7 +24,7 @@ const Hero = () => {
           <div className="search-bar">
             <HiLocationMarker color="var(--blue)" size={25} />
             <input type="text" />
-            <button>Search</button>
+            <button className="btn">Search</button>
           </div>
           <div className="stats">
             <div className="stat">

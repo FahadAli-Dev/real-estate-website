@@ -2,7 +2,6 @@
   max-width: 1280px;
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
   margin: auto;
 }
 
@@ -18,17 +17,5 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-  }
-}
-
-@media (max-width: 767px) {
-  .c-container {
-    padding: 4rem;
-  }
-}
-
-@media (max-width: 640px) {
-  .c-container {
-    padding: 1.5rem;
   }
 }

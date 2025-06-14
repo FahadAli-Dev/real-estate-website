@@ -9,7 +9,6 @@
   align-items: flex-end;
   max-width: 1280px;
   margin: auto;
-  padding: 2rem;
 }
 
 /* Left side */
@@ -137,16 +136,9 @@
   }
 }
 
-@media (max-width: 768px) {
-  .hero-container {
-    padding: 4rem;
-  }
-}
-
 @media (max-width: 640px) {
   .hero-container {
     margin-top: 2rem;
-    padding: 1.5rem;
   }
   .hero-title {
     font-size: 27px;
