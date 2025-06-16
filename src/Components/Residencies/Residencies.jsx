@@ -2,6 +2,7 @@ import "./Residencies.css";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import data from "../../data/slider.json";
+import sliderSettings from "../../data/common";
 
 const Residencies = () => {
   return (
@@ -11,18 +12,25 @@ const Residencies = () => {
           <span className="orangeText">Best Choices</span>
           <span className="primaryText">Popular Residencies</span>
         </div>
-        <div className="swiper-wrapper">
-          <Swiper slidesPerView={4} spaceBetween={50}>
-            {data.map((card, idx) => {
-              return (
-                <SwiperSlide>
-                  <img src={card.image} width={200} />
-                </SwiperSlide>
-              );
-            })}
-            <SlidButtons />
-          </Swiper>
-        </div>
+
+        <Swiper {...sliderSettings}>
+          {data.map((card, idx) => {
+            return (
+              <SwiperSlide key={idx}>
+                <div className="r-card">
+                  <img src={card.image} />
+                  <span className="secondary-text r-price">
+                    <span>₹</span>
+                    <span>{card.price}</span>
+                  </span>
+                  <span className="primaryText">{card.name}</span>
+                  <span className="secondary-text">{card.detail}</span>
+                </div>
+              </SwiperSlide>
+            );
+          })}
+          <SlidButtons />
+        </Swiper>
       </div>
     </section>
   );
