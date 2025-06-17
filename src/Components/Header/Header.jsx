@@ -10,7 +10,7 @@ const Header = () => {
     <header className="h-wrapper">
       <nav className="h-container">
         <img
-          src="logo.png"
+          src="/logo.png"
           alt="logo"
           width={100}
           style={{ position: "relative", zIndex: 1 }}

@@ -82,17 +82,8 @@
 
 /* Right side */
 
-.img-container {
-  width: 30rem;
-  height: 35rem;
-  border-radius: 15rem 15rem 0 0;
+.hero-right .img-container {
   border: 8px solid rgb(48, 46, 45);
-  overflow: hidden;
-}
-
-.img-container img {
-  width: 100%;
-  height: 100%;
 }
 
 /* Animation */
@@ -107,7 +98,7 @@
   }
 }
 
-.img-container {
+.hero-right .img-container {
   animation: slideIn 2s ease-out forwards;
 }
 
