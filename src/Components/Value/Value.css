@@ -34,15 +34,19 @@
 
 .accordion__item {
   margin-bottom: 20px;
-  box-shadow: var(--shadow);
   border: 0.8px solid rgba(128, 128, 128, 0.143);
   border-radius: 6px;
+}
+
+.open {
+  box-shadow: var(--shadow);
 }
 
 .accordion__button {
   background-color: white;
   display: flex;
   justify-content: space-between;
+  gap: 1rem;
   align-items: center;
   padding: 1rem;
 }
@@ -76,6 +80,10 @@
 
 .accordion__button > :nth-child(3) {
   height: 40px;
+}
+
+.rotate {
+  transform: rotate(180deg);
 }
 
 /* Responsive */

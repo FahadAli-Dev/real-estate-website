@@ -4,6 +4,7 @@ import {
   AccordionItemButton,
   AccordionItemHeading,
   AccordionItemPanel,
+  AccordionItemState,
 } from "react-accessible-accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
 import "./Value.css";
@@ -35,18 +36,24 @@ const Value = () => {
             {data.map((items, idx) => {
               return (
                 <AccordionItem uuid={idx} key={idx}>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      <div className="icon">{items.icon}</div>
-                      <span className="primaryText">{items.heading}</span>
-                      <div className="icon">
-                        <MdOutlineArrowDropDown size={20} />
+                  <AccordionItemState>
+                    {({ expanded }) => (
+                      <div className={`${expanded ? "open" : "collapse"}`}>
+                        <AccordionItemHeading>
+                          <AccordionItemButton>
+                            <div className="icon">{items.icon}</div>
+                            <span className="primaryText">{items.heading}</span>
+                            <div className={`icon ${expanded ? "rotate" : ""}`}>
+                              <MdOutlineArrowDropDown size={20} />
+                            </div>
+                          </AccordionItemButton>
+                        </AccordionItemHeading>
+                        <AccordionItemPanel>
+                          <p className="secondary-text">{items.detail}</p>
+                        </AccordionItemPanel>
                       </div>
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p className="secondary-text">{items.detail}</p>
-                  </AccordionItemPanel>
+                    )}
+                  </AccordionItemState>
                 </AccordionItem>
               );
             })}
