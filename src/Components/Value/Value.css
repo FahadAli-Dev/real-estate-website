@@ -12,15 +12,19 @@
   flex: 1;
 }
 
-.v-right {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
+/* Left Side */
 
 .v-container .img-container {
   border: 8px solid rgb(232 232 232 / 93%);
   border-radius: 15rem 15rem 0 0;
+}
+
+/* Right Side */
+
+.v-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .accordion {
@@ -72,4 +76,20 @@
 
 .accordion__button > :nth-child(3) {
   height: 40px;
+}
+
+/* Responsive */
+
+@media (max-width: 1024px) {
+  .v-container {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .accordion__button span {
+    font-size: 0.8rem;
+  }
 }
