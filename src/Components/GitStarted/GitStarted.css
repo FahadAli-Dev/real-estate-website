@@ -30,3 +30,8 @@
   border-radius: 10px;
   box-shadow: var(--shadow);
 }
+
+.innerG-container .btn a {
+  text-decoration: none;
+  color: white;
+}

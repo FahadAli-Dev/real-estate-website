@@ -11,7 +11,9 @@ const GitStarted = () => {
             residence soon
           </span>
 
-          <button className="btn">Get Started</button>
+          <button className="btn">
+            <a href="mailto:fa6084904@gmail.com">Get Started</a>
+          </button>
         </div>
       </div>
     </section>

@@ -1,6 +1,7 @@
 import "./App.css";
 import Companies from "./Components/Companies/Companies";
 import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 import GitStarted from "./Components/GitStarted/GitStarted";
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
@@ -20,6 +21,7 @@ const App = () => {
       <Value />
       <Contact />
       <GitStarted />
+      <Footer />
     </div>
   );
 };
