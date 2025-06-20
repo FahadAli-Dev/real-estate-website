@@ -88,8 +88,13 @@ button {
 
 /* Right Side  */
 
-.contact-container .img-container {
-  border: 10px solid white;
+.contact-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-right .img-container {
+  border: 8px solid white;
 }
 
 /* Responsive  */

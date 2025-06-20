@@ -16,7 +16,9 @@ const Footer = () => {
         {/* Right Side  */}
         <div className="f-right">
           <span className="primaryText">Information</span>
-          <span className="secondary-text">14-77/5 New Delhi, India</span>
+          <span className="secondary-text">
+            14-77/5 Kotli Azad kashmir, Pakistan
+          </span>
           <div className="f-menu">
             <span>Property</span>
             <span>Services</span>

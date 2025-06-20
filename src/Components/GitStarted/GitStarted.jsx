@@ -5,10 +5,10 @@ const GitStarted = () => {
     <section className="gitStarted-section">
       <div className="g-container padding">
         <div className="innerG-container">
-          <span className="primaryText">Get Started with Homyz</span>
+          <span className="primaryText">Get started with Homyz</span>
           <span className="secondary-text">
-            Subscribe and find super attractive price quotes <br /> Find your
-            residence soon
+            Subscribe and find super attractive price quotes from us. <br />{" "}
+            Find your residence soon
           </span>
 
           <button className="btn">
