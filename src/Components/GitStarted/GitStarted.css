@@ -1,0 +1,32 @@
+.g-container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.innerG-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  background: #4161df;
+  border: 6px solid #5d77d6;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.innerG-container > :nth-child(1) {
+  color: white;
+  font-weight: 600;
+}
+
+.innerG-container > :nth-child(2) {
+  color: #ffffff96;
+}
+
+.innerG-container .btn {
+  background: #5a73d7;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
