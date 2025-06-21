@@ -13,7 +13,7 @@ import { MdOutlineArrowDropDown } from "react-icons/md";
 
 const Value = () => {
   return (
-    <section className="value-section">
+    <section id="values" className="value-section">
       <div className="v-container padding">
         {/* Left Side */}
         <div className="v-left">

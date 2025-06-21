@@ -3,7 +3,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <section className="contact-section">
+    <section id="contact" className="contact-section">
       <div className="contact-container padding">
         {/* Left Side */}
         <div className="contact-left">

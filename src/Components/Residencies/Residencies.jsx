@@ -6,7 +6,7 @@ import sliderSettings from "../../data/common";
 
 const Residencies = () => {
   return (
-    <section className="r-wrapper">
+    <section id="residencies" className="r-wrapper">
       <div className="r-container padding">
         <div className="r-head">
           <span className="orangeText">Best Choices</span>

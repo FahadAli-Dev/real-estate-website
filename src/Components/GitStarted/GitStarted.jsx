@@ -2,7 +2,7 @@ import "./GitStarted.css";
 
 const GitStarted = () => {
   return (
-    <section className="gitStarted-section">
+    <section id="getStarted" className="gitStarted-section">
       <div className="g-container padding">
         <div className="innerG-container">
           <span className="primaryText">Get started with Homyz</span>
