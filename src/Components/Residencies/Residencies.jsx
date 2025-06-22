@@ -2,7 +2,7 @@ import "./Residencies.css";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import data from "../../data/slider.json";
-import sliderSettings from "../../data/common";
+import sliderSettings from "../../data/sliderSetting";
 
 const Residencies = () => {
   return (

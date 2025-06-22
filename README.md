@@ -37,22 +37,31 @@ A simple, responsive real estate web application built using **React** and **Vit
 
 ```
 real-estate-website/
-├── public/
-│   └── logo.png
+├── public/                  # Static files (images, icons, etc.)
 ├── src/
-│   ├── Components/
+│   ├── assets/              # Global assets like images/fonts
+│   ├── Components/          # Modular React components
+│   │   ├── Companies/
+│   │   ├── Contact/
+│   │   ├── Footer/
+│   │   ├── GitStarted/
 │   │   ├── Header/
 │   │   ├── Hero/
 │   │   ├── Residencies/
-│   │   ├── Value/
-│   │   ├── Contact/
-│   │   ├── GitStarted/
-│   │   └── Footer/
+│   │   └── Value/
+│   ├── data/                # Local data files
+│   │   ├── accordion.jsx          # Accordion data for values section
+│   │   ├── contactData.jsx        # Data for contact methods
+│   │   ├── slider.json            # Property cards data
+│   │   └── sliderSetting.js       # Swiper slider configuration
 │   ├── App.jsx
-│   └── main.jsx
+│   ├── index.css            # Global styles
+│   ├── main.jsx
+├── .gitignore
+├── index.html
 ├── package.json
+├── README.md
 ├── vite.config.js
-└── README.md
 ```
 
 ---
@@ -101,4 +110,4 @@ Deployed on **Vercel**. Changes pushed to GitHub are automatically deployed.
 **Fahad Ali**
 **Web Developer**
 📍 Pakistan
-🔗 GitHub: [@FahadAli-Dev](https://github.com/FahadAli-Dev)
+🔗 LinkedIn: [linkedin.com/in/fahadali-dev](https://www.linkedin.com/in/fahad-ali-759700369/)
