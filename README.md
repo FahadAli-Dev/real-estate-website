@@ -55,10 +55,13 @@ real-estate-website/
 │   │   ├── slider.json            # Property cards data
 │   │   └── sliderSetting.js       # Swiper slider configuration
 │   ├── App.jsx
+│   ├── App.jsx
 │   ├── index.css            # Global styles
 │   ├── main.jsx
 ├── .gitignore
+├── eslint.config.js
 ├── index.html
+├── package.lock.json
 ├── package.json
 ├── README.md
 ├── vite.config.js
