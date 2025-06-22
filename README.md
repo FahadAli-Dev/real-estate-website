@@ -55,7 +55,7 @@ real-estate-website/
 │   │   ├── slider.json            # Property cards data
 │   │   └── sliderSetting.js       # Swiper slider configuration
 │   ├── App.jsx
-│   ├── App.jsx
+│   ├── App.css
 │   ├── index.css            # Global styles
 │   ├── main.jsx
 ├── .gitignore
