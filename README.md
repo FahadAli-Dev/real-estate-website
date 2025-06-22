@@ -1,12 +1,104 @@
-# React + Vite
+# 🏡 Real Estate Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive real estate web application built using **React** and **Vite**. The design is clean and modern, and all styling has been done using **custom CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [Visit Live Website](https://real-estate-website-sb9l.vercel.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tech Stack
+
+- **React 19** – JavaScript UI library
+- **Vite 6** – Build tool for fast development
+- **Custom CSS** – For all styling (no framework used)
+- **React Scroll** – For smooth in-page navigation
+- **React Icons** – For vector icons
+- **SwiperJS** – For image sliders
+- **React CountUp** – For animated number counters
+- **React Outside Click Handler** – For closing mobile menus on outside click
+
+---
+
+## 🎯 Features
+
+- Fully responsive layout (mobile, tablet, desktop)
+- Sticky navbar with scroll detection
+- Reusable React components
+- Animated stats and scroll effects
+- Slider for property cards
+
+---
+
+## 📁 Project Structure
+
+```
+real-estate-website/
+├── public/
+│   └── logo.png
+├── src/
+│   ├── Components/
+│   │   ├── Header/
+│   │   ├── Hero/
+│   │   ├── Residencies/
+│   │   ├── Value/
+│   │   ├── Contact/
+│   │   ├── GitStarted/
+│   │   └── Footer/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🧪 Scripts
+
+```bash
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/FahadAli-Dev/real-estate-website.git
+
+# 2. Navigate into the project directory
+cd real-estate-website
+
+# 3. Install dependencies
+npm install --legacy-peer-deps
+
+# 4. Start development server
+npm run dev
+```
+
+---
+
+## 🌍 Deployment
+
+Deployed on **Vercel**. Changes pushed to GitHub are automatically deployed.
+
+---
+
+## 👨‍💻 Author
+
+**Fahad Ali**
+**Web Developer**
+📍 Pakistan
+🔗 GitHub: [@FahadAli-Dev](https://github.com/FahadAli-Dev)
