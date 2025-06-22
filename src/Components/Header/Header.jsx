@@ -6,11 +6,11 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   let [openMenu, setOpenMenu] = useState(false);
-  let [headerVisible, setHeaderVisibel] = useState(false);
+  let [headerVisible, setHeaderVisible] = useState(false);
 
   useEffect(() => {
     let handleScroll = () => {
-      setHeaderVisibel(window.scrollY > 10);
+      setHeaderVisible(window.scrollY > 10);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -33,16 +33,36 @@ const Header = () => {
           }}
         >
           <div className={`menu ${openMenu ? "showMenu" : ""}`}>
-            <Link to="residencies" smooth={true} duration={500}>
+            <Link
+              onClick={() => setOpenMenu(false)}
+              to="residencies"
+              smooth={true}
+              duration={500}
+            >
               Residencies
             </Link>
-            <Link to="values" smooth={true} duration={600}>
+            <Link
+              onClick={() => setOpenMenu(false)}
+              to="values"
+              smooth={true}
+              duration={600}
+            >
               Our Values
             </Link>
-            <Link to="getStarted" smooth={true} duration={800}>
+            <Link
+              onClick={() => setOpenMenu(false)}
+              to="getStarted"
+              smooth={true}
+              duration={800}
+            >
               Get Started
             </Link>
-            <Link to="contact" smooth={true} duration={700}>
+            <Link
+              onClick={() => setOpenMenu(false)}
+              to="contact"
+              smooth={true}
+              duration={700}
+            >
               <button className="btn">Contact Us</button>
             </Link>
           </div>
