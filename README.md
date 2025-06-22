@@ -37,7 +37,7 @@ A simple, responsive real estate web application built using **React** and **Vit
 
 ```
 real-estate-website/
-├── public/                  # Static files (images, icons, etc.)
+├── public/                  # Static files (images, icons, etc)
 ├── src/
 │   ├── assets/              # Global assets like images/fonts
 │   ├── Components/          # Modular React components
