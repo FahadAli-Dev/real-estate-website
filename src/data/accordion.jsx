@@ -4,7 +4,7 @@ import { MdAnalytics, MdCancel } from "react-icons/md";
 const data = [
   {
     icon: <HiShieldCheck />,
-    heading: "Best interest rates in the market",
+    heading: "Best rates in the market",
     detail:
       "Unlock exceptional value with our real estate offerings featuring the market's best interest rates.",
   },
