@@ -171,20 +171,6 @@
   }
 }
 
-/* @media (max-width: 447px) {
-  .search-bar {
-    flex-direction: column;
-    row-gap: 1.5rem;
-    padding: 0.5rem 1.5rem;
-  }
-  .search-bar button {
-    width: 100%;
-  }
-  .search-bar input {
-    width: 100%;
-  }
-} */
-
 @media (max-width: 440px) {
   .hero-left {
     width: 100%;
