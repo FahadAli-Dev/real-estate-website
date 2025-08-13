@@ -22,7 +22,9 @@ const Hero = () => {
             <span>Forget all difficulties in finding a residence for you.</span>
           </div>
           <div className="search-bar">
-            <HiLocationMarker color="var(--blue)" size={25} />
+            <div>
+              <HiLocationMarker color="var(--blue)" size={25} />
+            </div>
             <input type="text" />
             <button className="btn">Search</button>
           </div>
